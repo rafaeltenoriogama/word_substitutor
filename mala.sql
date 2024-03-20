@@ -1,12 +1,12 @@
-CREATE TABLE `mala` (
+CREATE TABLE `mala2` (
   `Numero` varchar(512) DEFAULT NULL,
   `Pessoa` varchar(512) DEFAULT NULL,
   `Processo` varchar(11) DEFAULT NULL,
   `Data` varchar(50) DEFAULT 'São Paulo, 1 de março de 2024'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+);
 
 
-INSERT INTO `mala` (`Numero`, `Pessoa`, `Processo`, `Data`) VALUES
+INSERT INTO `mala2` (`Numero`, `Pessoa`, `Processo`, `Data`) VALUES
 ('1000000-00.2022.5.02.0049', 'Aires da Silva', '49', 'São Paulo, 1 de março de 2024'),
 ('1000000-00.2024.5.02.0038', 'Alaesso da Silva', '38', 'São Paulo, 1 de março de 2024'),
 ('1000000-00.2014.5.02.0602', 'Alcineia da Silva', '02', 'São Paulo, 1 de março de 2024'),
@@ -19,4 +19,4 @@ INSERT INTO `mala` (`Numero`, `Pessoa`, `Processo`, `Data`) VALUES
 ('1000000-00.2000.5.02.0007', 'Ana Isabela da Silva', '07', 'São Paulo, 1 de março de 2024'),
 ('1000000-00.2000.5.02.0601', 'Ana Maria da Silva', '01', 'São Paulo, 1 de março de 2024'),
 ('1000000-00.2000.5.02.0079', 'André da Silva', '79', 'São Paulo, 1 de março de 2024'),
-('1000000-00.2000.5.02.0609', 'André Ricardo da Silva', '09', 'São Paulo, 1 de março de 2024'),
+('1000000-00.2000.5.02.0609', 'André Ricardo da Silva', '09', 'São Paulo, 1 de março de 2024');
