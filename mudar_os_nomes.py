@@ -11,8 +11,8 @@ def substituir_valores(documento, marcacao, novo_valor):
 # Conectar ao banco de dados
 conexao = mysql.connector.connect(
     host="localhost",
-    user="yuta",
-    password="abc123",
+    user="root",
+    password="sua_senha",
     database="projetos"
 )
 
