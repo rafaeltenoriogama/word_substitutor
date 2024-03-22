@@ -18,17 +18,28 @@ Finalmente, ele salva cada documento modificado com um nome único, não apagand
 ## Instruções de Uso
 Instale as dependências necessárias executando: `pip install mysql-connector-python python-docx.`
 
-Certifique-se de ter um banco de dados *MySQL\MariaDB* configurado e acessível.
+Certifique-se de ter um banco de dados *MySQL\MariaDB* configurado e acessível. Caso tenha dúvidas de como criar a tabela, há um arquivo de refência neste repositório chamado `mala.sql`.
 
 Configure as credenciais de acesso ao banco de dados *(host, user, password, database)* na seção apropriada do código.
 
-Por fim, prepare um documento *microsoft word* contendo os marcadores que deseja substituir pelos dados do banco de dados.
+Prepare um documento *microsoft word* contendo os marcadores que deseja substituir pelos dados do banco de dados.
+
+Por fim, no mesmo diretório em que estiver o documento word e arquivo `mudar_os_nomes.py`, abra um terminal e digite: `python3 mudar_os_nomes.py`
 
 ## Exemplo de uso utilizado neste código
-Suponha que você tenha uma carta de procuração onde precisa preencher vários processos trabalhistas, alterando o seguinte: Nome da pessoa no processo, número do processo, número da vara trabalhista e a data final do documento.
+Suponha que você tenha uma carta de procuração onde precisa preencher vários processos trabalhistas, alterando o seguinte: <span style="background-color: yellow;">Nome</span> da pessoa no processo, <span style="background-color: yellow;">número do processo</span>, número da vara trabalhista no <span style="background-color: yellow;">processo</span> e a <span style="background-color: yellow;">data</span> final do documento.
 
-Neste caso, você cria um banco de dados chamado "projetos" com uma tabela chamada "mala", contendo colunas "Pessoa", "Processo", "Numero" e "Data". Você pode usar este código para gerar documentos Word para cada entrada na tabela "mala", substituindo os marcadores no modelo de documento pelos valores correspondentes.
+<img src="img/documento.jpg">
+
+Neste caso, é possível criar um banco de dados chamado "projetos" com uma tabela chamada "mala", contendo as colunas: "Pessoa", "Processo", "Numero" e "Data". 
+
+Após isso, Você pode usar este código para gerar documentos Word para cada entrada na tabela "mala", substituindo os marcadores no modelo de documento pelos valores correspondentes.
+
+
 
 ## Observações
 Certifique-se de que o modelo de documento Word contém os mesmos marcadores especificados no código para garantir substituições precisas.
 Os documentos gerados serão salvos no mesmo diretório onde o script Python está sendo executado.
+
+## Imagem animada do software funcionando
+<img src="img/2024-03-20 15-21-00.gif">
