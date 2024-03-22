@@ -27,7 +27,7 @@ Prepare um documento *microsoft word* contendo os marcadores que deseja substitu
 Por fim, no mesmo diretório em que estiver o documento word e arquivo `mudar_os_nomes.py`, abra um terminal e digite: `python3 mudar_os_nomes.py`
 
 ## Exemplo de uso utilizado neste código
-Suponha que você tenha uma carta de procuração onde precisa preencher vários processos trabalhistas, alterando o seguinte: <span style="background-color: yellow;">Nome</span> da pessoa no processo, <span style="background-color: yellow;">número do processo</span>, número da vara trabalhista no <span style="background-color: yellow;">processo</span> e a <span style="background-color: yellow;">data</span> final do documento.
+Suponha que você tenha uma carta de procuração onde precisa preencher vários processos trabalhistas, alterando o seguinte: <span style="background-color: yellow;">`Nome`</span> da pessoa no processo, <span style="background-color: yellow;">`número do processo`</span>, número da vara trabalhista no <span style="background-color: yellow;">`processo`</span> e a <span style="background-color: yellow;">`data`</span> final do documento.
 
 <img src="img/documento.jpg">
 
